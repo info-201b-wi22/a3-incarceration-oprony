@@ -1,11 +1,11 @@
 ---
-title: "A3: Incarceration"
+title: "Trends in different race incarceration rates"
 output: html_document
 ---
 
 ### Introduction
 
-An introduction of the problem domain and a description of the variable(s) you are choosing to analyze (and why!)
+I was curious after reading this data how the race and rate of incarceration were related over time. I think this is an important question to ask because so many of our protests today are about things like "Systemic Racism," and this would provide additional evidence to prooving these claims or ideas. I'm not saying that these claims are not already backed by evidence, but I wanted to try and plot it for myself. It's always been a passion of mine to persue organization in our claims. So that's what excited me about doing this project of Different Race Incarceration Rates over Time. We are looking specifically at the races given in the data: LatinX, Black, White, or Native. Note we won't be looking at the different areas, ages, genders, or any other data in regard to these people. By simply showing trends in their race and rate of incarceration, I hope to give some clarity on the trends.
 
 ### Summary Information
 
@@ -21,13 +21,26 @@ Feel free to calculate and report values that you find relevant. Again, remember
 
 ### The Dataset
 
-Who collected the data?  
+Who collected the data?
+- The BJS. This includes the COJ and ASJ.
+
 How was the data collected or generated?  
+- ASJ collects data through surveys in 950 local jails. COJ collects data through census about 3200 local jails.
+
 Why was the data collected?  
-How many observations (rows) are in your data?  
-How many features (columns) are in the data?  
-What, if any, ethical questions or questions of power do you need to consider when working with this data?  
+- These data were collected to estimate characteristics about inmates nationwide.
+
+How many observations (rows) are in your data?
+- 153811 rows
+
+How many features (columns) are in the data?
+- 121 columns
+
+What, if any, ethical questions or questions of power do you need to consider when working with this data?
+- I don't have any specific questions that come to mind besides: how did the take this census, and what is the margin for error? And: Were the innmates allowed to opt out of being counted if they want to?
+
 What are possible limitations or problems with this data?   (at least 200 words)
+- No matter what survey or census we take, we will never be able to represent the entire prison or jail or incarceration population. We don't know about factors like inmates being unwilling to be counted, or answering honestly about questions. This could result in inaccurate counting, which could result in inaccurate data collected through these means. Some other reasons the data could be inaccurate is that maybe some inmates are missed because of things like protective custody or solitary confinement. And because of the freedom to respond however they like, some inmates can be dishonest about themselves. We don't know for certain, therefore, if the data is accurate in regard to race, gender, or age, either. Some of this could be verified from the prison logs or manifest, yes, but the overall risk of misinformation as a result of the census is highly likely. A census in this respect is probably inaccurate, therefore, simply due to the lack of error margins, we have no clue what could be right, and what could be completely false. Finally there's the ethical side, where we can't force people to be a part of this study, we can't make anyone be a part of the count, and we can't ethically assume someone's gender, ethnicity, age, or the like. This means that the data we read needs to be taken with a grain of salt, since there's no way of getting 100% accuracy.
 
 
 ### Trends Over Time Chart
